@@ -2,3 +2,16 @@ body{
     font-family: 'Gentium Book Plus', serif;
     margin: 0;
 }
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#h1-footer{
+    font-family: 'Dancing Script', cursive;
+    color: #FF5959;
+}
+.color-white{
+    color: white;
+}
