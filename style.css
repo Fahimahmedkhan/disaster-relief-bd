@@ -2,14 +2,35 @@ body{
     font-family: 'Gentium Book Plus', serif;
     margin: 0;
 }
+.header{
+    display: flex;
+    height: 400px;
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.head{
+    margin: auto;
+    width: 350px;
+}
+#head-h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
 footer{
     background-color: black;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: block;
 }
 #h1-footer{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
     color: #FF5959;
 }
 .color-white{
