@@ -14,20 +14,64 @@ body{
     margin: auto;
     width: 350px;
 }
-#head-h1{
+h1{
     font-size: 32px;
     font-weight: 700;
 }
-
+.link-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.disaster-relief {
+    text-align: center;
+    margin: 100px auto;
+    width: 900px;
+}
+.link-button2 {
+    margin: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: 700;
+}
+.tell-me-story{
+    color: white;
+    background-color: #009fbb;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.just-the-fact{
+    color: black;
+    background-color: #e5f2f5;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.just-the-fact:hover{
+    background-color: #6f7475;
+}
+.disaster-containts{
+    display: flex;
+    margin-bottom: 100px;
+}
+.disaster{
+    width: 33%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.disaster img{
+    padding-top: 20px;
+    width: 300px;
+}
 footer{
     background-color: black;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    display: block;
 }
 #h1-footer{
     font-family: 'Lobster', cursive;
