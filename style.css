@@ -159,6 +159,23 @@ h2 {
     display: flex;
     margin-bottom: 60px;
 }
+.gallery {
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 300px;
+}
+.gallery img {
+    height: 100%;
+    width: 100%;
+    height: auto;
+}
+.description {
+    padding: 15px;
+    text-align: center;
+    font-size: 700;
+}
+
 .form{
     display: flex;
 }
@@ -175,13 +192,28 @@ h2 {
     height: 48px;
     width: 275px;
 }
-
 footer{
     background-color: black;
+    
+}
+.top-footer{
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.bottom-footer{
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.bottom-footer img{
+    width: 20px;
+    height: auto;
+    text-align: left;
+    margin-right: 10px;
+}
+
 #h1-footer{
     font-family: 'Lobster', cursive;
     color: #FF5959;
