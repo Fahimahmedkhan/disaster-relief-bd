@@ -37,6 +37,9 @@ h1{
     margin: 100px auto;
     width: 900px;
 }
+.tripple-middle-containts{
+    width: 90%;
+}
 .middle-sub-containts{
     margin-bottom: 50px;
 }
@@ -127,6 +130,20 @@ input{
 }
 #education {
     background-color: #fcf4e0;
+}
+.half-width {
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.half-width img {
+    height: 100%;
+    width: 100%;
+}
+.contribute-section{
+    text-align: left;
+    display: flex;
+    margin-bottom: 60px;
 }
 footer{
     background-color: black;
