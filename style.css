@@ -14,6 +14,9 @@ body{
     margin: auto;
     width: 350px;
 }
+.color-white {
+    color: white;
+}
 h1{
     font-size: 32px;
     font-weight: 700;
@@ -24,12 +27,18 @@ h1{
     padding: 10px 40px;
     color: white;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 10px;
 }
-.disaster-relief {
+.link-button:hover{
+    background-color: #faa5a5;
+}
+.middle-containts {
     text-align: center;
     margin: 100px auto;
     width: 900px;
+}
+.middle-sub-containts{
+    margin-bottom: 50px;
 }
 .link-button2 {
     margin: 2px;
@@ -54,18 +63,70 @@ h1{
 .just-the-fact:hover{
     background-color: #6f7475;
 }
-.disaster-containts{
+.triple-containts{
     display: flex;
     margin-bottom: 100px;
 }
-.disaster{
-    width: 33%;
+.triple-sub-containts{
+    width: 30%;
     padding-left: 2%;
     padding-right: 2%;
 }
-.disaster img{
+.triple-sub-containts img{
     padding-top: 20px;
     width: 300px;
+}
+.tk-button{
+    margin-bottom: 50px;
+}
+.tk-button button{
+    border: none;
+    color: black;
+    background-color: white;
+    height: 100px;
+    width: 110px;
+}
+#button-color{
+    border: 2px solid #FF5959;
+    border-radius: 10%;
+    background-color: #faa5a5;
+    color: #FF5959;
+}
+.tk-button button:hover{
+    border: 2px solid #FF5959;
+    border-radius: 10%;
+    background-color: #faa5a5;
+}
+input{
+    font-weight: 600;
+    margin-bottom: 40px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    border-bottom: 2px solid rgb(202, 199, 199);
+}
+.triple-padding{
+    margin-right: 7px;
+    border: none;
+    border-radius: 20px;
+}
+.donation-plan{
+    text-align: left;
+    margin-right: 5px;
+}
+.icon {
+    max-width: 30px;
+    height: auto;
+}
+#food{
+    background-color: #e5f9fc;
+}
+#shelter {
+    background-color: #ffe6e6;
+}
+#education {
+    background-color: #fcf4e0;
 }
 footer{
     background-color: black;
@@ -76,7 +137,4 @@ footer{
 #h1-footer{
     font-family: 'Lobster', cursive;
     color: #FF5959;
-}
-.color-white{
-    color: white;
 }
