@@ -12,13 +12,17 @@ body{
 }
 .head{
     margin: auto;
-    width: 350px;
+    width: 650px;
 }
 .color-white {
     color: white;
 }
 h1{
-    font-size: 32px;
+    font-size: 50px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 30px;
     font-weight: 700;
 }
 .link-button {
@@ -28,6 +32,14 @@ h1{
     color: white;
     font-weight: 700;
     border-radius: 10px;
+}
+#submit{
+    font-weight: 700;
+    color: white;
+    background-color: #FF5959;
+    padding: 15px 40px;
+    border: none;
+    text-decoration: none;
 }
 .link-button:hover{
     background-color: #faa5a5;
@@ -81,8 +93,10 @@ h1{
 }
 .tk-button{
     margin-bottom: 50px;
+    
 }
 .tk-button button{
+    font-size: 25px;
     border: none;
     color: black;
     background-color: white;
@@ -100,7 +114,7 @@ h1{
     border-radius: 10%;
     background-color: #faa5a5;
 }
-input{
+#ammount{
     font-weight: 600;
     margin-bottom: 40px;
     border: none;
@@ -145,6 +159,23 @@ input{
     display: flex;
     margin-bottom: 60px;
 }
+.form{
+    display: flex;
+}
+.contuct {
+    border: none;
+    height: 20px;
+    width: 600px;
+    padding: 100px 5px 120px 170px;
+    margin: 0 auto 75px;
+    background-color: #fcf4e0;
+}
+#email{
+    text-align: left;
+    height: 48px;
+    width: 275px;
+}
+
 footer{
     background-color: black;
     text-align: center;
